@@ -1,0 +1,108 @@
+.dex-container {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    flex:1;
+    padding:20px 40px
+}
+
+.exchange-token-container {
+    display: flex;
+}
+
+.exchange-token{
+    background: black;
+
+    padding: 25px 25px 40px 25px;
+
+    color: white;
+    align-self: flex-start;
+}
+.header-dex{
+    color:#fff;
+    font-size: 20px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.exchange-graph{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+ .outer-container{
+ margin-top:10px;
+ }
+ .cost{
+    font-size: 13px;
+    color: white;
+    opacity: 0.8;
+ }
+.left-Section{
+    float: left;
+    width:100%;
+    background-color: #000;
+    height: auto;
+    color: #fff;
+    padding:20px;
+}
+
+.right-Section{
+    float: right;
+    width:75%;
+    color: #fff;
+    margin-right: 16px;
+    /* padding:0px 30px 20px 30px; */
+}
+
+
+.outer-data{
+    align-items: 'center';
+    display: 'flex';
+    justify-content: 'space-between';
+    margin: '10px 0px';
+}
+
+
+.transaction_table_row_head {
+    color: "white";
+    border-color: '#606162';
+    opacity: 0.6;
+    font-size: 14;
+    padding: 10;
+  }
+
+
+  .order-route-container{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px;
+    background: #2f2e2e;
+    border-radius: 5px;
+  }
+
+  .order-route{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .order{
+    height: 40px;
+    width: 100px;
+    background: #444545;
+    border-radius: 25%;
+  }
+
+  .routes{
+    border: 1px dotted white;
+    border-top: none;
+    border-bottom: none;
+    margin: 0px 46px;
+  }
+
+  .route{
+    border: 1px dotted white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
